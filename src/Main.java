@@ -32,21 +32,12 @@ public class Main {
 
         //Por último, para el Switch, deberás crear la variable estacion, y distintos cas...
         String estacion = "Primaver";
-        switch (estacion){
-            case "Primavera":
-                System.out.println("Estamos en "+estacion);
-                break;
-            case "Verano":
-                System.out.println("Estamos en "+estacion);
-                break;
-            case "Otono":
-                System.out.println("Estamos en "+estacion);
-                break;
-            case "Invierno":
-                System.out.println("Estamos en "+estacion);
-                break;
-            default:
-                System.out.println("No es una estacion");
+        switch (estacion) {
+            case "Primavera" -> System.out.println("Estamos en " + estacion);
+            case "Verano" -> System.out.println("Estamos en " + estacion);
+            case "Otono" -> System.out.println("Estamos en " + estacion);
+            case "Invierno" -> System.out.println("Estamos en " + estacion);
+            default -> System.out.println("No es una estacion");
         }
     }
 }
